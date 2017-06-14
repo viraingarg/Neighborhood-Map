@@ -19,4 +19,22 @@ Knockout js and JQuery has also been implemented for the bindings and script fun
 
 Custom images for icons have been used and are located under the img directory.
 
+-------------------------------------------
+.row::after {
+    
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+--------------------------------------------
+The above mentioned snippet has been refrenced from w3schools.
+
 Thank you.
